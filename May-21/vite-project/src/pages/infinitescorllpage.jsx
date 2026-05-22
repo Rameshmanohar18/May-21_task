@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback } from "react";
 
-const PAGE_SIZE = 10;
-const MAX_ITEMS = 50;
+const PAGE_SIZE = 8;
+const MAX_ITEMS = 5000;
 
 function createPosts(startIndex) {
   return Array.from(
