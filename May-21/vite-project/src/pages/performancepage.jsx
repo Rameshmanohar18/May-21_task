@@ -5,7 +5,7 @@ function PerformancePage() {
   const [count, setCount] = useState(0);
 
   const products = useMemo(() => {
-    return ["iPhone", "MacBook", "iPad"];
+    return ["iPhone", "MacBook", "iPad", "iMac", "MacMini","iPhone air", "iPhone 17 pro max"];
   }, []);
 
   return React.createElement(
